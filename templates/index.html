@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Flasky{% endblock %}
+
+
+{% block page_content %}
+{% if current_user.is_authenticated %}
+<div class="page-header">
+    <h1>Hello, {{ current_user.username }}!</h1>
+</div>
+<div class="col-md-4">
+<a href="{{ url_for('main.upload')}}">file upload</a>
+<a href="{{ url_for('main.upload')}}">news </a>
+<p>wejkrwejw</p>
+</div>
+{% else %}
+<div class="page-header">
+    <h1>Hello, welcome to News! Please log in.</h1>
+</div>
+{% endif %}
+{% endblock %}
