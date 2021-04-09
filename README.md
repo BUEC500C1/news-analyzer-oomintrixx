@@ -1,7 +1,7 @@
 # News Analyzer
 
 This is a news analyzer which is capable of uploading files, analyzing sentiment of news, and generating news feed report.
-
+Demo video link:https://drive.google.com/file/d/1F1R96tuAUxp3nDJvNo21myy7BPimgYz4/view?usp=sharing
 ## User Stories
 ### File Uploader/Ingester
 As a journalist, I want to be able to upload file to the system, which may include text, images, charts, or handwritten text. As a user, I want to be able to convert file types. As a user, I want to be able to check the upload histroy. As a user, I want want this system to be secure.
